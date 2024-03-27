@@ -1,0 +1,44 @@
+header{
+    text-align: center;
+}
+.info-block{
+    border: 1px solid black;
+
+    width: 900px;
+    height: 1200px;
+    float: right;
+   margin-right:150px;
+    margin-top: 50px;
+}
+.labs-list div{
+    width: 85px;
+    border: 1px black solid;
+    border-radius: 15px;
+    margin: 10px;
+    padding: 15px;
+    display: inline-block;
+}
+.lab1{
+    background-color: #fdb700;
+}
+a{
+    text-decoration: none;
+}
+.buttons{
+    float: left;
+
+}
+button{
+    padding: 15px;
+    margin: 10px;
+    background-color: white;
+    width: 200px;
+    text-align: center;
+    border: 1px black solid;
+    border-radius: 15px;
+}
+/******************************************************************************************/
+
+.lab2{
+    background-color: #fdb700;
+}
