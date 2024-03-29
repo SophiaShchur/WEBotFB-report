@@ -1,0 +1,139 @@
+.fixed-table{
+    width: 900px;
+    margin: 0 auto;
+}
+.fixed-table-header{
+    width: 100%;
+    height: 90px;
+    background-color: #e8b106;
+    padding-left: 60px;
+    font-size: 36px;
+    text-align: left;
+    color: white;
+}
+.fixed-table-left-col{
+    width: 250px;
+    height: 480px;
+    background-color: #1388d3;
+    vertical-align: middle;
+    font-size: 36px;
+    text-align: center;
+}
+.fixed-table-middle-col{
+    width: 400px;
+    background-color: #ffffff;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 36px;
+}
+.fixed-table-right-col{
+    width: 250px;
+    padding: 20px;
+    background-color: #ffffff;
+    vertical-align: middle;
+
+}
+.fixed-table-footer{
+    height: 80px;
+    width: 100%;
+    background-color: #e8b106;
+    color: white;
+    font-size: 36px;
+    text-align: left;
+    padding-left: 60px;
+
+}p{
+     margin: 0;
+     padding-top: 200px;
+     vertical-align:middle;
+     font-size: 36px;
+ }.fixed-table-right-col-inner{
+      width: 230px;
+      height: 460px;
+      background-color: #1388d3;
+       text-align: center;
+  }
+  /***************************************************************************************************************/
+.fluid-table{
+    width: 100%;
+}
+.fluid-table-header{
+    width: 100%;
+    height: 90px;
+    background-color: #e8b106;
+    padding-left: 60px;
+    font-size: 36px;
+    text-align: left;
+    color: white;
+}
+.fluid-table-left-col{
+    width: 250px;
+    height: 480px;
+    background-color: #1388d3;
+    vertical-align: middle;
+    font-size: 36px;
+    text-align: center;
+}
+.fluid-table-middle-col{
+    background-color: #ffffff;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 36px;
+    width: 500px;
+}
+.fluid-table-right-col{
+    width: 250px;
+    padding: 20px;
+    margin: 10px;
+    background-color: #ffffff;
+    vertical-align: middle;
+    text-align: right;
+}
+.fluid-table-footer{
+    height: 80px;
+    width: 100%;
+    background-color: #e8b106;
+    color: white;
+    font-size: 36px;
+    text-align: left;
+    padding-left: 60px;
+
+}p{
+     margin: 0;
+     padding-top: 200px;
+     vertical-align:middle;
+     font-size: 36px;}
+.fluid-table-right-col-inner{
+      width: 100%;
+      height: 460px;
+      background-color: #1388d3;
+      text-align: center;
+}
+/****************************************************************************************************************/
+.block-header{
+    background-color: orchid;
+    width: 100%;
+    height: 60px;
+}
+.block-page{
+    width: 1200px;
+    margin: 0 auto;
+}
+.block-main{
+background-color: darkblue;
+}
+.block-left-col{
+    width: 200px;
+    height: 800px;
+    background-color: #fdb700;
+}
+.block-right-col{
+    width: 800px;
+    text-align: center;
+    height: 800px;
+    background-color: blueviolet;
+}
+.block-right-col-main{
+    background-color: chartreuse;
+    width:600px ;
+}

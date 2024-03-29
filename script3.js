@@ -1,38 +1,53 @@
 document.addEventListener('DOMContentLoaded', function() {
 
-    const connBtn = document.getElementById('connect');
-    const textBtn = document.getElementById('theme');
-    const tegBtn = document.getElementById('teg');
-    const classBtn = document.getElementById('class');
-    const idBtn = document.getElementById('id');
-    const ectBtn = document.getElementById('ect');
-    const cssBtn = document.getElementById('css');
-    const resultBtn = document.getElementById('result');
+    const Btn1 = document.getElementById('but1');
+    const Btn2 = document.getElementById('but2');
+    const Btn3 = document.getElementById('but3');
+    const Btn4 = document.getElementById('but4');
+    const Btn5 = document.getElementById('but5');
+    const Btn6 = document.getElementById('but6');
+    const Btn7 = document.getElementById('but7');
+    const Btn8 = document.getElementById('but8');
+    const Btn9 = document.getElementById('but9');
+    const Btn10 = document.getElementById('but10');
+    const Btn11 = document.getElementById('but11');
+    const Btn12 = document.getElementById('but12');
 
     const infoBlock = document.querySelector('.info-block');
 
 
-    connBtn.addEventListener('click', function() {
-        infoBlock.innerHTML = "<img src='img/lab2/lab2_1.jpg'><br>" +
-            "<img src='img/lab2/lab2_2.jpg'><br>";
+    Btn2.addEventListener('click', function() {
+        infoBlock.innerHTML = "<img src='img/lab3/1.png'><br>" +
+            "<img src='img/lab3/2.png'><br>" +
+            "<img src='img/lab3/3.png'><br>" +
+            "<img src='img/lab3/4.png'><br>" +
+            "<img src='img/lab3/5.png'><br>";
     });
 
-    textBtn.addEventListener('click', function() {
-        infoBlock.innerHTML = "<h3>Тема: КАСКАДНІ ТАБЛИЦІ СТИЛІВ. СЕЛЕКТОРИ .ІДЕНТИФІКАТОРИ. СТИЛЬОВЕ" +
-            "ОФОРМЛЕННЯ ТЕКСТОВИХ ЕЛЕМЕНТІВ В HTML-ДОКУМЕНТАХ.</h3>" +
-            "<p>Мета: придбати практичні навички роботи з селекторами, ідентифікаторами,\n" +
-            "списками, різноманітними властивостями кольору і фону, зовнішними та\n" +
-            "внутрішними відступами, плаваючими елементами, оформленням текстових\n" +
-            "елементів</p>" +
+    Btn1.addEventListener('click', function() {
+        infoBlock.innerHTML = "<h3>Тема: ВЕРСТКА HTML-ДОКУМЕНТУ. БЛОКОВА ВЕРСТКА. ВЕРСТКА\n" +
+            "ЗАСОБАМИ CSS та FLEXBOX</h3>" +
+            "<p>Мета:\n" +
+            "⎯ придбати практичні навички роботи верстки сторінок засобами CSS, верстки на\n" +
+            "основі плаваючих елементів, з’ясувати переваги та недоліки типів макетів веб-\n" +
+            "сторінок\n" +
+            "⎯ придбати практичні навички роботи верстки сторінок засобами CSS та FLEXBOX</p>" +
             "<a href='https://github.com/SophiaShchur/Cinema-WEB-site.git'>Github Cinema-WEB-site</a><br>" +
             "<a href='https://github.com/SophiaShchur/WEBotFB-report.git'>Github Звіт</a>";
     });
 
-    tegBtn.addEventListener('click', function() {
-        infoBlock.innerHTML = "<img src='img/lab2/header.jpg'><br>"  +
-            "<img src='img/lab2/lab2_3.jpg'><br>" +
-            "<img src='img/lab2/input.jpg'><br>" +
-            "<img src='img/lab2/lab2_4.jpg'><br>";
+    Btn4.addEventListener('click', function() {
+        infoBlock.innerHTML = "<img src='img/lab3/6.png'><br>"  +
+            "<img src='img/lab3/7.png'><br>" +
+            "<img src='img/lab3/8.png'><br>" +
+            "<a href='lab3_21.html'>Таблична фіксована</a><br>";
+    });
+    Btn5.addEventListener('click', function() {
+        infoBlock.innerHTML = "<img src='img/lab3/9.png'><br>"  +
+            "<img src='img/lab3/10.png'><br>" +
+            "<img src='img/lab3/11.png'><br>" +
+            "<img src='img/lab3/12.png'><br>" +
+            "<a href='lab3_22.html'>Таблична гумова</a><br>";
     });
 
     classBtn.addEventListener('click', function() {
@@ -51,8 +66,8 @@ document.addEventListener('DOMContentLoaded', function() {
             "<img src='img/lab2/lab2_8.jpg'><br>"+
             "<img src='img/lab2/input.jpg'><br>" +
             "<img src='img/lab2/lab2_9.jpg'><br>"+
-        "<img src='img/lab2/popfilm.jpg'><br>" +
-        "<img src='img/lab2/lab2_10.jpg'><br>" ;
+            "<img src='img/lab2/popfilm.jpg'><br>" +
+            "<img src='img/lab2/lab2_10.jpg'><br>" ;
     });
     cssBtn.addEventListener('click', function() {
         infoBlock.innerHTML = "<img src='img/lab2/lab2_11.jpg'><br>"  +

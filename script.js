@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function() {
-    // Отримуємо посилання на елементи DOM
+
     const descBtn = document.getElementById('description');
     const textBtn = document.getElementById('theme');
     const htmlBtn = document.getElementById('html-structure');
