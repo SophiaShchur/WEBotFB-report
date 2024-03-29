@@ -49,38 +49,25 @@ document.addEventListener('DOMContentLoaded', function() {
             "<img src='img/lab3/12.png'><br>" +
             "<a href='lab3_22.html'>Таблична гумова</a><br>";
     });
-
-    classBtn.addEventListener('click', function() {
-        infoBlock.innerHTML = "<img src='img/lab2/footer.jpg'><br>"  +
-            "<img src='img/lab2/lab2_5.jpg'><br>";
+    Btn6.addEventListener('click', function() {
+        infoBlock.innerHTML = "<img src='img/lab3/13.png'><br>"  +
+            "<img src='img/lab3/14.png'><br>" +
+            "<img src='img/lab3/15.png'><br>" +
+            "<img src='img/lab3/16.png'><br>" +
+            "<a href='lab3_23.html'>Блокова фіксована</a><br>";
     });
-    idBtn.addEventListener('click', function() {
-        infoBlock.innerHTML = "<img src='img/lab2/footer.jpg'><br>"  +
-            "<img src='img/lab2/lab2_6.jpg'><br>";
-    });
-
-    ectBtn.addEventListener('click', function() {
-        infoBlock.innerHTML = "<img src='img/lab2/h1+h2.jpg'><br>"  +
-            "<img src='img/lab2/lab2_7.jpg'><br>" +
-            "<img src='img/lab2/header.jpg'><br>" +
-            "<img src='img/lab2/lab2_8.jpg'><br>"+
-            "<img src='img/lab2/input.jpg'><br>" +
-            "<img src='img/lab2/lab2_9.jpg'><br>"+
-            "<img src='img/lab2/popfilm.jpg'><br>" +
-            "<img src='img/lab2/lab2_10.jpg'><br>" ;
-    });
-    cssBtn.addEventListener('click', function() {
-        infoBlock.innerHTML = "<img src='img/lab2/lab2_11.jpg'><br>"  +
-            "<img src='img/lab2/input.jpg'><br>" +
-            "<img src='img/lab2/lab2_12.jpg'><br>" +
-            "<img src='img/lab1_6.jpg'><br>"+
-            "<img src='img/lab2/lab2_13.jpg'><br>" +
-            "<img src='img/lab2/nav.jpg'><br>"+
-            "<img src='img/lab2/lab2_14.jpg'><br>" ;
+    Btn7.addEventListener('click', function() {
+        infoBlock.innerHTML = "<img src='img/lab3/17.png'><br>"  +
+            "<img src='img/lab3/18.png'><br>" +
+            "<img src='img/lab3/19.png'><br>" +
+            "<img src='img/lab3/20.png'><br>" +
+            "<img src='img/lab3/21.png'><br>" +
+            "<a href='lab3_24.html'>Блокова гумова</a><br>";
     });
 
 
-    resultBtn.addEventListener('click', function() {
+
+    Btn.addEventListener('click', function() {
         infoBlock.innerHTML = "<h1>Висновки</h1>" +
             "<p>Під час нашої роботи ми вивчили, як використовувати CSS для стилізації веб-сторінок." +
             " Зрозуміли, як точно вибирати та оформлювати елементи HTML за допомогою селекторів та " +

@@ -113,8 +113,11 @@
 .block-header{
     background-color: #e8b106;
     width: 100%;
-    height: 80px;
+    height: 50px;
     padding: 20px;
+    vertical-align: middle;
+    text-align: right;
+    font-size: 36px;
 }
 .block-header-white{
      background-color: white;
@@ -135,6 +138,8 @@ height: 800px;
     height: 800px;
     float: left;
     background-color: #1388d3;
+    font-size: 36px;
+    text-align: center;
 }
 .block-right-col{
     width: 800px;
@@ -163,6 +168,7 @@ height: 800px;
 .block-left-col-inner{
     height: 100%;
     background-color: #ffffff;
+    font-size: 36px;
 }
 .block-right-col-main-left{
     width:375px ;
@@ -173,8 +179,93 @@ height: 800px;
 }.block-right-col-inner{
      height: 100%;
     background-color: #1388d3;
+     font-size: 36px;
+
  }
  .block-footer{
-     height: 100px;
+     height: 70px;
      background-color: #fdb700;
+     font-size: 36px;
  }
+ /********************************************************************************************************/
+.fluid-block-header{
+    background-color: #e8b106;
+    width: 100%;
+    height: 50px;
+    padding: 20px;
+    vertical-align: middle;
+    text-align: right;
+    font-size: 36px;
+}
+.fluid-block-header-white{
+    background-color: white;
+    width: 200px;
+    height: 50px;
+    margin: 10px;
+    float: left;
+}
+.fluid-block-page{
+    width: 100%;
+
+}
+.fluid-block-main{
+    height: 800px;
+    width: 100%;
+}
+.fluid-block-left-col{
+    width: 30%;
+    height: 800px;
+    float: left;
+    background-color: #1388d3;
+    font-size: 36px;
+    text-align: center;
+}
+.fluid-block-right-col{
+    width: 70%;
+    text-align: center;
+    height: 750px;
+    padding: 25px 0;
+
+    float: left;
+}
+.fluid-block-right-col-header{
+    width: 100%;
+    background-color: #f60000;
+    height: 50px;
+}
+
+.fluid-block-right-col-main{
+    height:700px ;
+    justify-content: space-evenly;
+}
+.fluid-block-right-col-main-right{
+    width:50% ;
+    height: 675px;
+    float: left;
+    text-align: center;
+    padding: 25px 0 0 0 ;
+}
+
+.fluid-block-left-col-inner{
+    height: 100%;
+    background-color: #ffffff;
+    font-size: 36px;
+    width: 80%;
+}
+.fluid-block-right-col-main-left{
+    width:50% ;
+    height: 675px;
+    float: right;
+    text-align: center;
+    padding: 25px  0  0 0;
+}.fluid-block-right-col-inner{
+     height: 100%;
+     background-color: #1388d3;
+     font-size: 36px;
+     width: 80%;
+ }
+.fluid-block-footer{
+    height: 70px;
+    background-color: #fdb700;
+    font-size: 36px;
+}
