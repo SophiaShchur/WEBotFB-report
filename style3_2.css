@@ -111,29 +111,70 @@
 }
 /****************************************************************************************************************/
 .block-header{
-    background-color: orchid;
+    background-color: #e8b106;
     width: 100%;
-    height: 60px;
+    height: 80px;
+    padding: 20px;
 }
+.block-header-white{
+     background-color: white;
+     width: 200px;
+     height: 50px;
+     margin: 10px;
+    float: left;
+ }
 .block-page{
     width: 1200px;
     margin: 0 auto;
 }
 .block-main{
-background-color: darkblue;
+height: 800px;
 }
 .block-left-col{
-    width: 200px;
+    width: 300px;
     height: 800px;
-    background-color: #fdb700;
+    float: left;
+    background-color: #1388d3;
 }
 .block-right-col{
     width: 800px;
     text-align: center;
-    height: 800px;
-    background-color: blueviolet;
+    height: 750px;
+    padding: 25px 50px;
+
+    float: left;
 }
+.block-right-col-header{
+    background-color: #f60000;
+    height: 50px;
+}
+
 .block-right-col-main{
-    background-color: chartreuse;
-    width:600px ;
+    height:700px ;
 }
+.block-right-col-main-right{
+    width:375px ;
+    height: 675px;
+    float: left;
+    text-align: center;
+    padding: 25px 0 0 0 ;
+}
+
+.block-left-col-inner{
+    height: 100%;
+    background-color: #ffffff;
+}
+.block-right-col-main-left{
+    width:375px ;
+    height: 675px;
+    float: right;
+    text-align: center;
+    padding: 25px  0  0 0;
+}.block-right-col-inner{
+     height: 100%;
+    background-color: #1388d3;
+ }
+ .block-footer{
+     height: 100px;
+     background-color: #fdb700;
+ }
