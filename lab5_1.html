@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Масив</title>
+</head>
+<body>
+<script>
+    // Функція для створення масиву заданої користувачем довжини
+    function createArray() {
+        var n = parseInt(prompt("Введіть кількість елементів масиву:"));
+        var array = [];
+        for (var i = 0; i < n; i++) {
+            array.push(Math.floor(Math.random() * 100) + 1); // Генеруємо випадкове число від 1 до 100
+        }
+        return array;
+    }
+
+    // Функція для пошуку максимального серед парних елементів
+    function findMaxEven(array) {
+        var max = -Infinity;
+        for (var i = 0; i < array.length; i++) {
+            if (array[i] % 2 === 0 && array[i] > max) {
+                max = array[i];
+            }
+        }
+        return max;
+    }
+
+    // Функція для пошуку мінімального серед елементів з парними індексами
+    function findMinEvenIndex(array) {
+        var min = Infinity;
+        for (var i = 0; i < array.length; i += 2) {
+            if (array[i] < min) {
+                min = array[i];
+            }
+        }
+        return min;
+    }
+
+    // Функція для обміну місцями елементів у масиві
+    function swapElements(array, index1, index2) {
+        var temp = array[index1];
+        array[index1] = array[index2];
+        array[index2] = temp;
+    }
+
+    // Створення масиву
+    var inputArray = createArray();
+    document.write("Вхідний масив: " + inputArray + "<br>");
+
+    // Знаходження та обмін максимального та мінімального елементів
+    var maxEven = findMaxEven(inputArray);
+    var minEvenIndex = findMinEvenIndex(inputArray);
+    var maxEvenIndex = inputArray.indexOf(maxEven);
+    swapElements(inputArray, maxEvenIndex, inputArray.indexOf(minEvenIndex));
+    document.write("Максимальний серед парних: " + maxEven + "<br>");
+    document.write("Мінімальний серед елементів з парними індексами: " + minEvenIndex + "<br>");
+    document.write("Вихідний масив після обміну: " + inputArray + "<br>");
+
+    // Сортування вихідного масиву за зростанням методом вставки
+    for (var i = 1; i < inputArray.length; i++) {
+        var current = inputArray[i];
+        var j = i - 1;
+        while (j >= 0 && inputArray[j] > current) {
+            inputArray[j + 1] = inputArray[j];
+            j--;
+        }
+        inputArray[j + 1] = current;
+    }
+    document.write("Відсортований вихідний масив: " + inputArray + "<br>");
+</script>
+</body>
+</html>
