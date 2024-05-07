@@ -15,11 +15,11 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
     Btn2.addEventListener('click', function() {
-        infoBlock.innerHTML = "<img src='img/lab3/1.png'><br>" +
-            "<img src='img/lab3/2.png'><br>" +
-            "<img src='img/lab3/3.png'><br>" +
-            "<img src='img/lab3/4.png'><br>" +
-            "<img src='img/lab3/5.png'><br>";
+        infoBlock.innerHTML = "<img src='../img/lab3/1.png'><br>" +
+            "<img src='../img/lab3/2.png'><br>" +
+            "<img src='../img/lab3/3.png'><br>" +
+            "<img src='../img/lab3/4.png'><br>" +
+            "<img src='../img/lab3/5.png'><br>";
     });
 
     Btn1.addEventListener('click', function() {
@@ -35,45 +35,45 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 
     Btn4.addEventListener('click', function() {
-        infoBlock.innerHTML = "<img src='img/lab3/6.png'><br>"  +
-            "<img src='img/lab3/7.png'><br>" +
-            "<img src='img/lab3/8.png'><br>" +
+        infoBlock.innerHTML = "<img src='../img/lab3/6.png'><br>"  +
+            "<img src='../img/lab3/7.png'><br>" +
+            "<img src='../img/lab3/8.png'><br>" +
             "<a href='lab3_21.html'>Таблична фіксована</a><br>";
     });
     Btn5.addEventListener('click', function() {
-        infoBlock.innerHTML = "<img src='img/lab3/9.png'><br>"  +
-            "<img src='img/lab3/10.png'><br>" +
-            "<img src='img/lab3/11.png'><br>" +
-            "<img src='img/lab3/12.png'><br>" +
+        infoBlock.innerHTML = "<img src='../img/lab3/9.png'><br>"  +
+            "<img src='../img/lab3/10.png'><br>" +
+            "<img src='../img/lab3/11.png'><br>" +
+            "<img src='../img/lab3/12.png'><br>" +
             "<a href='lab3_22.html'>Таблична гумова</a><br>";
     });
     Btn6.addEventListener('click', function() {
-        infoBlock.innerHTML = "<img src='img/lab3/13.png'><br>"  +
-            "<img src='img/lab3/14.png'><br>" +
-            "<img src='img/lab3/15.png'><br>" +
-            "<img src='img/lab3/16.png'><br>" +
+        infoBlock.innerHTML = "<img src='../img/lab3/13.png'><br>"  +
+            "<img src='../img/lab3/14.png'><br>" +
+            "<img src='../img/lab3/15.png'><br>" +
+            "<img src='../img/lab3/16.png'><br>" +
             "<a href='lab3_23.html'>Блокова фіксована</a><br>";
     });
     Btn7.addEventListener('click', function() {
-        infoBlock.innerHTML = "<img src='img/lab3/17.png'><br>"  +
-            "<img src='img/lab3/18.png'><br>" +
-            "<img src='img/lab3/19.png'><br>" +
-            "<img src='img/lab3/20.png'><br>" +
-            "<img src='img/lab3/21.png'><br>" +
+        infoBlock.innerHTML = "<img src='../img/lab3/17.png'><br>"  +
+            "<img src='../img/lab3/18.png'><br>" +
+            "<img src='../img/lab3/19.png'><br>" +
+            "<img src='../img/lab3/20.png'><br>" +
+            "<img src='../img/lab3/21.png'><br>" +
             "<a href='lab3_24.html'>Блокова гумова</a><br>";
     });
     Btn9.addEventListener('click', function() {
-        infoBlock.innerHTML = "<img src='img/lab3/22.png'><br>"  +
+        infoBlock.innerHTML = "<img src='../img/lab3/22.png'><br>"  +
             "<a href='lab3_3.html'>Посилання на сторінку</a><br>";
     });
 
     Btn10.addEventListener('click', function() {
-        infoBlock.innerHTML = "<img src='img/lab3/23.png'><br>"  +
-            "<img src='img/lab3/24.png'><br>";
+        infoBlock.innerHTML = "<img src='../img/lab3/23.png'><br>"  +
+            "<img src='../img/lab3/24.png'><br>";
     });
     Btn11.addEventListener('click', function() {
-        infoBlock.innerHTML = "<img src='img/lab3/24.png'><br>"  +
-            "<img src='img/lab3/25.png'><br>";
+        infoBlock.innerHTML = "<img src='../img/lab3/24.png'><br>"  +
+            "<img src='../img/lab3/25.png'><br>";
     });
     Btn12.addEventListener('click', function() {
         infoBlock.innerHTML = "<h1>Висновки</h1>" +
