@@ -17,7 +17,7 @@
 <script>
     // Task 1
     function createProduct(obj, callback1, callback2) {
-        const id = Date.now().toString(36) + Math.random().toString(36).substring(2);
+        const id = Date.now().toString(36);
         obj.id = id;
         callback1(obj);
         callback2(obj);
