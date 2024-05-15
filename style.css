@@ -3,7 +3,7 @@ header{
 }
 .info-block{
     border: 1px solid black;
-
+border-bottom-color: white;
     width: 900px;
     height: 1200px;
     float: right;

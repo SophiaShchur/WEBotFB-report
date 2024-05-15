@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+    <h1>Завдання 1</h1>
+    <p>Введіть текст:</p>
+    <input type="text" id="inputShow">
+    <button onclick="showText()">SHOW ME</button>
+</div>
+<script>
+    function showText() {
+        const inputText = document.getElementById('inputShow').value;
+        console.log(inputText);
+    }
+</script>
+<h1>Завдання 3</h1>
+<div class="container">
+    <p id="displayText">Введіть текст:</p>
+    <input type="text" id="inputHide">
+    <button onclick="toggleText()">Приховати</button>
+</div>
+<script>
+    function toggleText() {
+        const inputText = document.getElementById('inputHide');
+        const button = document.querySelector('div.container:nth-of-type(2) button');
+
+        if (inputText.type === 'text') {
+            inputText.type = 'password';
+            button.textContent = 'Розкрити';
+        } else {
+            inputText.type = 'text';
+            button.textContent = 'Приховати';
+        }
+    }
+</script>
+
+
+<p class="taskTitle">Завдання 5</p>
+<div id="place"></div>
+
+<script>
+    window.addEventListener("click", function(event) {
+        var clickedInsideDiv = event.target.id === "place";
+        console.log(clickedInsideDiv);
+    });
+</script>
+<h1>Завдання 7</h1>
+<ul id="categories">
+    <li class="item">
+        <h2>Animals</h2>
+        <ul>
+            <li>Cat</li>
+            <li>Hamster</li>
+            <li>Horse</li>
+            <li>Parrot</li>
+        </ul>
+    </li>
+    <li class="item">
+        <h2>Products</h2>
+        <ul>
+            <li>Bread</li>
+            <li>Prasley</li>
+            <li>Cheese</li>
+        </ul>
+    </li>
+    <li class="item">
+        <h2>Technologies</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>React</li>
+            <li>Node.js</li>
+        </ul>
+    </li>
+</ul>
+<script>
+    const categoriesList = document.querySelectorAll("#categories .item");
+
+
+    console.log(`Total categories: ${categoriesList.length}`);
+
+
+    categoriesList.forEach(category => {
+        const categoryName = category.querySelector("h2").textContent;
+        const categoryItems = category.querySelectorAll("ul li").length;
+        console.log(`Category: ${categoryName}, Items: ${categoryItems}`);
+    });
+</script>
+<div class="widget">
+    <h1>Завдання 9</h1>
+    <p>Background color: <span class="color">-</span></p>
+    <button type="button" class="change-color">Change color</button>
+</div>
+
+<script>
+    function getRandomHexColor() {
+        return `#${Math.floor(Math.random() * 16777215).toString(16).padStart(6, '0')}`;
+    }
+
+    const changeColorButton = document.querySelector('.change-color');
+    const colorSpan = document.querySelector('.color');
+
+    changeColorButton.addEventListener('click', function() {
+        const randomColor = getRandomHexColor();
+        document.body.style.backgroundColor = randomColor;
+        colorSpan.textContent = randomColor;
+    });
+</script>
+
+<div id="controls">
+    <h1>Завдання 10</h1>
+    <input type="number" min="1" max="100" step="1" />
+    <button type="button" data-create>Create</button>
+    <button type="button" data-destroy>Destroy</button>
+</div>
+
+<div id="boxes"></div>
+
+<script>
+    function getRandomHexColor() {
+        return `#${Math.floor(Math.random() * 16777215).toString(16).padStart(6, '0')}`;
+    }
+
+    const input = document.querySelector('#controls input');
+    const createButton = document.querySelector('[data-create]');
+    const destroyButton = document.querySelector('[data-destroy]');
+    const boxesContainer = document.getElementById('boxes');
+
+    createButton.addEventListener('click', () => {
+        const amount = Number(input.value);
+        if (amount >= 1 && amount <= 100) {
+            createBoxes(amount);
+            input.value = '';
+        } else {
+            alert('Please enter a number between 1 and 100.');
+        }
+    });
+
+    destroyButton.addEventListener('click', destroyBoxes);
+
+    function createBoxes(amount) {
+        boxesContainer.innerHTML = '';
+        const boxes = [];
+        for (let i = 0; i < amount; i++) {
+            const box = document.createElement('div');
+            box.classList.add('box');
+            box.style.width = `${30 + i * 10}px`;
+            box.style.height = `${30 + i * 10}px`;
+            box.style.backgroundColor = getRandomHexColor();
+            boxes.push(box);
+        }
+        boxesContainer.append(...boxes);
+    }
+
+    function destroyBoxes() {
+        boxesContainer.innerHTML = '';
+    }
+</script>
+</body>
+</html>
