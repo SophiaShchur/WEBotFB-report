@@ -23,7 +23,8 @@ document.addEventListener('DOMContentLoaded', function() {
             "<img src='../img/lab5/1.png'><br>" +
             "<img src='../img/lab5/2.png'><br>" +
             "<img src='../img/lab5/3.png'><br>" +
-            "<img src='../img/lab5/4.png'><br>";
+            "<img src='../img/lab5/4.png'><br>"+
+            "<a href='lab5_1.html'>Посилання на сторінку</a><br>" ;
     });
 
     Btn1.addEventListener('click', function() {
@@ -42,7 +43,8 @@ document.addEventListener('DOMContentLoaded', function() {
             "<img src='../img/lab5/8.png'><br>" +
             "<img src='../img/lab5/9.png'><br>" +
             "<img src='../img/lab5/10.png'><br>" +
-            "<img src='../img/lab5/11.png'><br>";
+            "<img src='../img/lab5/11.png'><br>"+
+            "<a href='lab5_2.html'>Посилання на сторінку</a><br>" ;
     });
     Btn4.addEventListener('click', function() {
         infoBlock.innerHTML =

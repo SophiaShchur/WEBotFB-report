@@ -13,8 +13,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
     connBtn.addEventListener('click', function() {
-        infoBlock.innerHTML = "<img src='img/lab2/lab2_1.jpg'><br>" +
-            "<img src='img/lab2/lab2_2.jpg'><br>";
+        infoBlock.innerHTML = "<img src='../img/lab2/lab2_1.jpg'><br>" +
+            "<img src='../img/lab2/lab2_2.jpg'><br>";
     });
 
     textBtn.addEventListener('click', function() {
@@ -29,39 +29,39 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 
     tegBtn.addEventListener('click', function() {
-        infoBlock.innerHTML = "<img src='img/lab2/header.jpg'><br>"  +
-            "<img src='img/lab2/lab2_3.jpg'><br>" +
-            "<img src='img/lab2/input.jpg'><br>" +
-            "<img src='img/lab2/lab2_4.jpg'><br>";
+        infoBlock.innerHTML = "<img src='../img/lab2/header.jpg'><br>"  +
+            "<img src='../img/lab2/lab2_3.jpg'><br>" +
+            "<img src='../img/lab2/input.jpg'><br>" +
+            "<img src='../img/lab2/lab2_4.jpg'><br>";
     });
 
     classBtn.addEventListener('click', function() {
-        infoBlock.innerHTML = "<img src='img/lab2/footer.jpg'><br>"  +
-            "<img src='img/lab2/lab2_5.jpg'><br>";
+        infoBlock.innerHTML = "<img src='../img/lab2/footer.jpg'><br>"  +
+            "<img src='../img/lab2/lab2_5.jpg'><br>";
     });
     idBtn.addEventListener('click', function() {
-        infoBlock.innerHTML = "<img src='img/lab2/footer.jpg'><br>"  +
-            "<img src='img/lab2/lab2_6.jpg'><br>";
+        infoBlock.innerHTML = "<img src='../img/lab2/footer.jpg'><br>"  +
+            "<img src='../img/lab2/lab2_6.jpg'><br>";
     });
 
     ectBtn.addEventListener('click', function() {
-        infoBlock.innerHTML = "<img src='img/lab2/h1+h2.jpg'><br>"  +
-            "<img src='img/lab2/lab2_7.jpg'><br>" +
-            "<img src='img/lab2/header.jpg'><br>" +
-            "<img src='img/lab2/lab2_8.jpg'><br>"+
-            "<img src='img/lab2/input.jpg'><br>" +
-            "<img src='img/lab2/lab2_9.jpg'><br>"+
-        "<img src='img/lab2/popfilm.jpg'><br>" +
-        "<img src='img/lab2/lab2_10.jpg'><br>" ;
+        infoBlock.innerHTML = "<img src='../img/lab2/h1+h2.jpg'><br>"  +
+            "<img src='../img/lab2/lab2_7.jpg'><br>" +
+            "<img src='../img/lab2/header.jpg'><br>" +
+            "<img src='../img/lab2/lab2_8.jpg'><br>"+
+            "<img src='../img/lab2/input.jpg'><br>" +
+            "<img src='../img/lab2/lab2_9.jpg'><br>"+
+        "<img src='../img/lab2/popfilm.jpg'><br>" +
+        "<img src='../img/lab2/lab2_10.jpg'><br>" ;
     });
     cssBtn.addEventListener('click', function() {
-        infoBlock.innerHTML = "<img src='img/lab2/lab2_11.jpg'><br>"  +
-            "<img src='img/lab2/input.jpg'><br>" +
-            "<img src='img/lab2/lab2_12.jpg'><br>" +
-            "<img src='img/lab1_6.jpg'><br>"+
-            "<img src='img/lab2/lab2_13.jpg'><br>" +
-            "<img src='img/lab2/nav.jpg'><br>"+
-            "<img src='img/lab2/lab2_14.jpg'><br>" ;
+        infoBlock.innerHTML = "<img src='../img/lab2/lab2_11.jpg'><br>"  +
+            "<img src='../img/lab2/input.jpg'><br>" +
+            "<img src='../img/lab2/lab2_12.jpg'><br>" +
+            "<img src='../img/lab1_6.jpg'><br>"+
+            "<img src='../img/lab2/lab2_13.jpg'><br>" +
+            "<img src='../img/lab2/nav.jpg'><br>"+
+            "<img src='../img/lab2/lab2_14.jpg'><br>" ;
     });
 
 
